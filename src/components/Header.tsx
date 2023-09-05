@@ -47,7 +47,7 @@ export const Header = () => {
                             <NavLink to="projects" className={({isActive}) => isActive ? activeClass : inActiveClass}>Projects</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/" className={({isActive}) => isActive ? activeClass : inActiveClass}>Random quote</NavLink>
+                            <NavLink to="joke" className={({isActive}) => isActive ? activeClass : inActiveClass}>Random joke</NavLink>
                         </li>
                     </ul>
                 </div>
