@@ -1,11 +1,17 @@
-import { Home } from './pages/Home'
+import { Footer, Header } from './components'
 import './App.css'
+import { AllRoutes } from './routes/AllRoutes'
+import {BrowserRouter as Router} from 'react-router-dom'
 
 function App() {
 
   return (
     <>
-    <Home />
+      <Router>
+        <Header />
+        <AllRoutes />
+        <Footer />
+      </Router>
     </>
   )
 }
