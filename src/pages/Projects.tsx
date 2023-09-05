@@ -1,6 +1,11 @@
+import { ProjectCard } from "../components"
 
 export const Projects = () => {
   return (
-    <div></div>
+    <main>
+      <div>
+        <h1>Projects</h1>
+      </div>
+    </main>
   )
 }
