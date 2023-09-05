@@ -4,7 +4,7 @@
 
 @layer base {
   main {
-    @apply max-w-screen-xl mx-auto min-h-[90vh]
+    @apply max-w-screen-xl mx-auto min-h-[90vh] dark:text-gray-300
   }
 
 }

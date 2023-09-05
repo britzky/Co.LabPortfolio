@@ -10,7 +10,7 @@ export const Home = () => {
             <h1 className="text-2xl font-bold">+</h1>
             <h1 className="text-2xl font-bold">Lunch Fanatic</h1>
         </div>
-        <div>
+        <div className="grid sm:grid-cols-2 p-5">
             <InfoCard 
                 title="About me"
                 description="Hey there! I'm John, a Software Engineer from Pittsfield, MA. My favorite languages are JavaScript and Python, lately I've been interested in Golang too.
