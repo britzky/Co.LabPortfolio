@@ -9,15 +9,15 @@ export const Projects = () => {
     <main>
       <div className="flex flex-col items-center gap-5 py-7 ">
         <h1 className="text-2xl font-bold">Projects</h1>
-        <ProjectCard
-          title="Weather Report"
-          description="Access current high, low, forecast, and humidity based on zipcode input.
-          Built with HTML, CSS, JavaScript, and openweathermap.org API.
-          Asynchronous operations for seamless data fetching, dynamic background images, and intuitive UI."
-          image={weatherReport}
-          live="https://www.loom.com/share/87f0225171204086a074e6967479abd2"
-          github="https://github.com/britzky/WeatherReport"
-          />
+          <ProjectCard
+            title="Weather Report"
+            description="Access current high, low, forecast, and humidity based on zipcode input.
+            Built with HTML, CSS, JavaScript, and openweathermap.org API.
+            Asynchronous operations for seamless data fetching, dynamic background images, and intuitive UI."
+            image={weatherReport}
+            live="https://www.loom.com/share/87f0225171204086a074e6967479abd2"
+            github="https://github.com/britzky/WeatherReport"
+            />
         <ProjectCard
           title="Task Manager"
           description="Efficiently manage daily tasks, projects, and one-time events. 
@@ -26,6 +26,7 @@ export const Projects = () => {
           image={taskManager}
           live="https://britzkys-task-manager.netlify.app"
           github="https://github.com/britzky/task-manager"
+          reverse
           />
         <ProjectCard
           title="Cinema Center"
@@ -47,6 +48,7 @@ export const Projects = () => {
           image={britzkysDungeon}
           live="https://gilded-squirrel-0bbe73.netlify.app"
           github="https://github.com/britzky/React_Character_Selector"
+          reverse
           />
       </div>
     </main>
