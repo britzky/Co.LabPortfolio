@@ -14,7 +14,7 @@ export const Home = () => {
             <img className="rounded-2xl w-48 m-3" src={me} alt="Smiling man" />
             <h1 className="text-2xl font-bold">Software Engineer</h1>
             <h1 className="text-2xl font-bold">+</h1>
-            <h1 className="text-2xl font-bold">Lunch Fanatic</h1>
+            <h1 className="text-2xl font-bold">Christmas Fanatic</h1>
         </div>
         <div className="grid sm:grid-cols-2 gap-3">
             <div >
@@ -27,7 +27,7 @@ export const Home = () => {
             </div>
             <InfoCard
                 title="Early Career" 
-                description="I started my career in restaurants as a dishwasher. Over the years, through hard work and education, I worked my way up to executive chef. My time in restaurants taught me a lot about working in general and I see a lot of parallels to software engineering."
+                description="I started my career in restaurants as a dishwasher. Over the years, through hard work and education, I worked my way up to executive chef. My time in restaurants taught me a lot about working in general and I see a lot of parallels with software engineering."
             />
         </div>
         <div className="my-2">
