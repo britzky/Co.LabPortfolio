@@ -40,7 +40,7 @@ export const Joke = () => {
     }
 
   return (
-    <main>
+    <main className="bg-amber-50">
         <div className="flex flex-col gap-2 py-7 items-center">
             <h1 className="text-2xl font-bold">Random Chuck Norris joke</h1>
             <p>I chose this as my API because there are a ton of Chuck Norris jokes I dont know yet.</p>

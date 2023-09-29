@@ -1,18 +1,19 @@
 import { Footer, Header } from './components'
-import './App.css'
-import { AllRoutes } from './routes/AllRoutes'
 import {BrowserRouter as Router} from 'react-router-dom'
+import { Home, Joke, Projects } from './pages'
 
 function App() {
 
   return (
-    <>
+    <div className="dark:bg-gray-800">
       <Router>
         <Header />
-        <AllRoutes />
+        <Home />
+        <Projects />
+        <Joke />
         <Footer />
       </Router>
-    </>
+    </div>
   )
 }
 
