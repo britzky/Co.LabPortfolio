@@ -1,12 +1,7 @@
 import me from '../assets/me.jpg'
-import resume from '../assets/John_Clapper_Resume.pdf'
 import { InfoCard } from '../components'
 
 export const Home = () => {
-    
-    const openResume = () => {
-        window.open(resume, '_blank')
-    }
 
   return (
     <main className="bg-emerald-50">
@@ -44,9 +39,6 @@ export const Home = () => {
                     "Team work: Managing a team and working in team based settings for most of my life taught me how important communication is."
                 ]} 
             />
-        </div>
-        <div className="">
-            <button onClick={openResume} type="button" className="focus:outline-none text-white bg-emerald-400 hover:bg-emerald-600 focus:ring-4 focus:ring-emerald-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-emerald-600 dark:hover:bg-emerald-700 dark:focus:ring-emerald-800">My Resume</button>
         </div>
     </main>
   )
