@@ -13,7 +13,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({title, image, descripti
     <section className="py-5">
         <div className={`py-3 flex flex-col md:flex-row gap-4 md:gap-12 ${reverse ? 'md:flex-row-reverse' : ''}`}>
             <div className="order-first md:order-none">
-                <img src={image} alt="Project image" className="rounded-xl max-w-lg" />
+                <img src={image} alt="Project image" className="rounded-xl sm:max-w-lg" />
             </div>
             <div className="max-w-md">
                 <h1 className="text-xl underline py-3">{title}:</h1>
