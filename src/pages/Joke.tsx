@@ -54,8 +54,8 @@ export const Joke = () => {
             {joke && <p>{joke}</p>}
         </div>    
             <div className="flex justify-evenly">
-                <button onClick={getJoke} type="button" className="focus:outline-none text-white bg-pink-400 hover:bg-pink-600 focus:ring-4 focus:ring-pink-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-pink-500 dark:hover:bg-pink-600 dark:focus:ring-pink-700">More Chuck!</button>
-                <button onClick={openResume} type="button" className="focus:outline-none text-white bg-emerald-400 hover:bg-emerald-600 focus:ring-4 focus:ring-emerald-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-emerald-600 dark:hover:bg-emerald-700 dark:focus:ring-emerald-800">My Resume</button>
+                <button onClick={getJoke} type="button" className="focus:outline-none text-white bg-pink-400 hover:bg-pink-600 focus:ring-4 focus:ring-pink-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">More Chuck!</button>
+                <button onClick={openResume} type="button" className="focus:outline-none text-white bg-emerald-400 hover:bg-emerald-600 focus:ring-4 focus:ring-emerald-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">My Resume</button>
             </div>
     </main>
   )
