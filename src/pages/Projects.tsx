@@ -6,7 +6,7 @@ import { ProjectCard } from "../components"
 
 export const Projects = () => {
   return (
-    <main className="bg-sky-50">
+    <main id="projects" className="bg-sky-50">
       <div className="flex flex-col items-center gap-5 py-7 ">
         <h1 className="text-2xl font-bold">Projects</h1>
         <ProjectCard

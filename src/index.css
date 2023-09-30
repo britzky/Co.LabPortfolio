@@ -6,6 +6,9 @@
   main {
     @apply mx-auto min-h-[90vh] dark:text-gray-300
   }
+  html {
+    scroll-behavior: smooth;
+  }
 }
 
 @layer utilities {

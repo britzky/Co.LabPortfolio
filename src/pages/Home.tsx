@@ -4,7 +4,7 @@ import { InfoCard } from '../components'
 export const Home = () => {
 
   return (
-    <main className="bg-emerald-50">
+    <main id="about" className="bg-emerald-50">
         <div className="flex flex-col items-center p-2 max-w-screen-xl mx-auto relative py-16">
             <div className="absolute top-2/3 left-1/4 transform translate-x-1/2 -translate-y-1/2 w-48 h-48 sm:w-72 sm:h-72 bg-amber-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
             <div className="absolute top-1/2 transform -translate-y-1/2 w-48 h-48 sm:w-72 sm:h-72 bg-emerald-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
