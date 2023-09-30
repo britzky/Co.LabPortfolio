@@ -10,9 +10,9 @@ export const Home = () => {
             <div className="absolute top-1/2 transform -translate-y-1/2 w-48 h-48 sm:w-72 sm:h-72 bg-emerald-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
             <div className="absolute top-2/3 right-1/4 transform -translate-y-1/2 -translate-x-1/2 w-48 h-48 sm:w-72 sm:h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
                 <img className=" z-10 rounded-xl w-44 m-3" src={me} alt="Smiling man" />
-                <h1 className="text-2xl font-bold dark:text-black">Software Engineer</h1>
-                <h1 className="text-2xl font-bold dark:text-black">+</h1>
-                <h1 className="text-2xl font-bold dark:text-black">Christmas Fanatic</h1>
+                <h1 className="text-2xl font-bold">Software Engineer</h1>
+                <h1 className="text-2xl font-bold">+</h1>
+                <h1 className="text-2xl font-bold">Christmas Fanatic</h1>
         </div>
         <div className="grid sm:grid-cols-2 gap-7">
             <div className="m-5 rounded-xl z-10">
