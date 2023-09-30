@@ -5,7 +5,7 @@ import { Home, Joke, Projects } from './pages'
 function App() {
 
   return (
-    <div className="dark:bg-gray-800">
+    
       <Router>
         <Header />
         <Home />
@@ -34,7 +34,6 @@ function App() {
         </div>
         <Footer />
       </Router>
-    </div>
   )
 }
 
